@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4872B9A2022A22F00F58969 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4872B992022A22F00F58969 /* AppDelegate.m */; };
+		F4872B9D2022A22F00F58969 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4872B9C2022A22F00F58969 /* ViewController.m */; };
+		F4872BA02022A22F00F58969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4872B9E2022A22F00F58969 /* Main.storyboard */; };
+		F4872BA22022A22F00F58969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4872BA12022A22F00F58969 /* Assets.xcassets */; };
+		F4872BA52022A22F00F58969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4872BA32022A22F00F58969 /* LaunchScreen.storyboard */; };
+		F4872BA82022A22F00F58969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4872BA72022A22F00F58969 /* main.m */; };
+		F4872BB12022A28900F58969 /* SYMoireView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4872BAF2022A28900F58969 /* SYMoireView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4872B952022A22F00F58969 /* SYWaveMoireView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYWaveMoireView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4872B982022A22F00F58969 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4872B992022A22F00F58969 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4872B9B2022A22F00F58969 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4872B9C2022A22F00F58969 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4872B9F2022A22F00F58969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4872BA12022A22F00F58969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4872BA42022A22F00F58969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4872BA62022A22F00F58969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4872BA72022A22F00F58969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4872BAF2022A28900F58969 /* SYMoireView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYMoireView.m; sourceTree = "<group>"; };
+		F4872BB02022A28900F58969 /* SYMoireView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYMoireView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4872B922022A22F00F58969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4872B8C2022A22F00F58969 = {
+			isa = PBXGroup;
+			children = (
+				F4872B972022A22F00F58969 /* SYWaveMoireView */,
+				F4872B962022A22F00F58969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4872B962022A22F00F58969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4872B952022A22F00F58969 /* SYWaveMoireView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4872B972022A22F00F58969 /* SYWaveMoireView */ = {
+			isa = PBXGroup;
+			children = (
+				F4872BAE2022A28900F58969 /* SYMoireView */,
+				F4872B982022A22F00F58969 /* AppDelegate.h */,
+				F4872B992022A22F00F58969 /* AppDelegate.m */,
+				F4872B9B2022A22F00F58969 /* ViewController.h */,
+				F4872B9C2022A22F00F58969 /* ViewController.m */,
+				F4872B9E2022A22F00F58969 /* Main.storyboard */,
+				F4872BA12022A22F00F58969 /* Assets.xcassets */,
+				F4872BA32022A22F00F58969 /* LaunchScreen.storyboard */,
+				F4872BA62022A22F00F58969 /* Info.plist */,
+				F4872BA72022A22F00F58969 /* main.m */,
+			);
+			path = SYWaveMoireView;
+			sourceTree = "<group>";
+		};
+		F4872BAE2022A28900F58969 /* SYMoireView */ = {
+			isa = PBXGroup;
+			children = (
+				F4872BAF2022A28900F58969 /* SYMoireView.m */,
+				F4872BB02022A28900F58969 /* SYMoireView.h */,
+			);
+			path = SYMoireView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4872B942022A22F00F58969 /* SYWaveMoireView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4872BAB2022A22F00F58969 /* Build configuration list for PBXNativeTarget "SYWaveMoireView" */;
+			buildPhases = (
+				F4872B912022A22F00F58969 /* Sources */,
+				F4872B922022A22F00F58969 /* Frameworks */,
+				F4872B932022A22F00F58969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYWaveMoireView;
+			productName = SYWaveMoireView;
+			productReference = F4872B952022A22F00F58969 /* SYWaveMoireView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4872B8D2022A22F00F58969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = sunshixiang;
+				TargetAttributes = {
+					F4872B942022A22F00F58969 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4872B902022A22F00F58969 /* Build configuration list for PBXProject "SYWaveMoireView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4872B8C2022A22F00F58969;
+			productRefGroup = F4872B962022A22F00F58969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4872B942022A22F00F58969 /* SYWaveMoireView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4872B932022A22F00F58969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4872BA52022A22F00F58969 /* LaunchScreen.storyboard in Resources */,
+				F4872BA22022A22F00F58969 /* Assets.xcassets in Resources */,
+				F4872BA02022A22F00F58969 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4872B912022A22F00F58969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4872B9D2022A22F00F58969 /* ViewController.m in Sources */,
+				F4872BA82022A22F00F58969 /* main.m in Sources */,
+				F4872B9A2022A22F00F58969 /* AppDelegate.m in Sources */,
+				F4872BB12022A28900F58969 /* SYMoireView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4872B9E2022A22F00F58969 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4872B9F2022A22F00F58969 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4872BA32022A22F00F58969 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4872BA42022A22F00F58969 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4872BA92022A22F00F58969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4872BAA2022A22F00F58969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4872BAC2022A22F00F58969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2VTQT3E26;
+				INFOPLIST_FILE = SYWaveMoireView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonSwift.SYWaveMoireView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4872BAD2022A22F00F58969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2VTQT3E26;
+				INFOPLIST_FILE = SYWaveMoireView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonSwift.SYWaveMoireView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4872B902022A22F00F58969 /* Build configuration list for PBXProject "SYWaveMoireView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4872BA92022A22F00F58969 /* Debug */,
+				F4872BAA2022A22F00F58969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4872BAB2022A22F00F58969 /* Build configuration list for PBXNativeTarget "SYWaveMoireView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4872BAC2022A22F00F58969 /* Debug */,
+				F4872BAD2022A22F00F58969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4872B8D2022A22F00F58969 /* Project object */;
+}
